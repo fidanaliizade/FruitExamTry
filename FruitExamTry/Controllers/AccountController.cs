@@ -48,7 +48,7 @@ namespace FruitExamTry.Controllers
                     ModelState.AddModelError("", item.Description);
                 }
             }
-            return RedirectToAction("Login");
+            return RedirectToAction("Login","Account");
         }
         public IActionResult Login()
         {
